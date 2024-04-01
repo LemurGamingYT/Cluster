@@ -1,0 +1,16 @@
+// Start with a main function that returns an int
+func main() -> int {
+    x = 20
+    if x {
+        print("x is true")
+    }
+
+    b = false
+    if !b {
+        print("b is false")
+    } else {
+        print("b is true")
+    }
+
+    return 0 // Return 0 to indicate success
+}

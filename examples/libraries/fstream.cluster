@@ -1,0 +1,30 @@
+// Use the fstream library
+use "fstream"
+
+// Start with a main function that returns an int
+func main() -> int {
+    // Open a file
+    f = open_file("./fstream.txt")
+
+    print(f.path) // Get the file's path
+    print(f.exists) // Check if the file exists
+    print(f.content) // Get the file's content
+
+    // Create the file if it doesn't exist
+    if !f.exists {
+        f.create()
+    }
+
+    // Write a string to it
+    has_written = f.write("Testing fstream...")
+    if !has_written { // Check if the file has been written to
+        print("File was not written to")
+    } else {
+        print("File was written to")
+    }
+
+    // Make sure to close the file when you're done with it
+    f.close()
+
+    return 0 // Return 0 to indicate success
+}

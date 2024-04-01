@@ -14,8 +14,10 @@ def validate_file(src: str, errorfn: Callable[[str, str, tuple[int, int]], NoRet
     i = 0
     while i < len(lines):
         line = lines[i]
-        if line == f'#include "{DEFAULT_HEADER.absolute()}"':
-            has_include = True
+        if line.startswith(('#include', '#define')):
+            if line == f'#include "{DEFAULT_HEADER.absolute().as_posix()}"':
+                has_include = True
+
             new_source += line + '\n'
         elif line == 'int_t main() {':
             has_main_function = True

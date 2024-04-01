@@ -1,0 +1,22 @@
+// Use the lcode library, a library of leet code problem
+use "lcode"
+
+// Start with a main function that returns an int
+func main() -> int {
+    // 'reverse_int' leet code problem
+    x = 10005
+    print(reverse_int(x))
+
+    // 'length_of_longest_substring' leet code problem
+    a = "aabbcc  aaaa"
+    print(length_of_longest_substring(a))
+
+    // 'is_palindrome_int' leet code problem
+    print(is_palindrome_int(x))
+    print(is_palindrome_int(100001))
+
+    // 'is_parenthesis_valid' leet code problem
+    print(is_parenthesis_valid("((()))"))
+    print(is_parenthesis_valid("{}{}]"))
+    return 0 // Return 0 to indicate success
+}

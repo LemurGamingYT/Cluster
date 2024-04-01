@@ -1,0 +1,18 @@
+// Start with a main function that returns an int
+func main() -> int {
+    // Get the current process id (only on Windows and Linux currently)
+    print(System.pid)
+
+    // Execute a system command
+    print(System.shell("ls"))
+
+    // Move the mouse (only on Windows)
+    System.mouse_to(500, 100)
+
+    // Quit the program
+    System.exit() // Default exit code is 0
+
+    print("Won't run")
+
+    return 0 // Return 0 to indicate success
+}

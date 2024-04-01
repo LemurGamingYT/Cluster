@@ -1,0 +1,19 @@
+// Start with a main function that returns an int
+func main() -> int {
+    // Cluster has a few built in functions
+
+    print("Hello, world!") // 'print' is a built in function
+    
+    // Get the type of an object using the 'type' function
+    print(type(6))
+
+    // Make anything a string using the 'to_string' function
+    a = to_string(100)
+    print(type(a))
+
+    // Get a string output from the user by using the 'input' function
+    user = input(">>> ") // Optional prompt parameter
+    print("You inputted: " + user)
+
+    return 0 // Return 0 to indicate success
+}

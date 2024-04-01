@@ -1,0 +1,11 @@
+// Start with a main function that returns an int
+func main() -> int {
+    i = 0
+    while i < 1000 {
+        i = i + 1
+    }
+
+    print("While loop finished")
+
+    return 0 // Return 0 to indicate success
+}

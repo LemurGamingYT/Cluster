@@ -54,6 +54,11 @@ class ClusterVisitor(ParseTreeVisitor):
         return self.visitChildren(ctx)
 
 
+    # Visit a parse tree produced by ClusterParser#useStmt.
+    def visitUseStmt(self, ctx:ClusterParser.UseStmtContext):
+        return self.visitChildren(ctx)
+
+
     # Visit a parse tree produced by ClusterParser#funcAssign.
     def visitFuncAssign(self, ctx:ClusterParser.FuncAssignContext):
         return self.visitChildren(ctx)

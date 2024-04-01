@@ -1,0 +1,27 @@
+// Start with a main function that returns an int
+func main() -> int {
+    a = "5000"
+    abc = "ABC"
+
+    print(abc.lower()) // Lower the string 'ABC'
+    print(abc.length) // Returns the length of the string
+    print(a.parse_int()) // Returns the string as an integer
+    print(a.start) // Get the first character of the string
+    print(a.end) // Get the last character of the string
+    print(abc.is_alpha()) // Check if all the characters in the string are alphabetic
+    print(a.is_digit()) // Check if all the characters in the string are numbers/digits
+
+    b = int{80, 0, 99, 77, 1, 40, 91, 53, 26}
+
+    print(b.length) // Get the length of the array
+    b.add(14) // Add a new element to the array
+    b.insert(103, 3) // Insert a new element into the array at a specific index
+    print(b.pop(8)) // Remove the specified index and get the removed value
+    b.sort() // Sort the array
+    print(b)
+    print(b.has(0)) // Check if the array has a value
+    print(b.has(8))
+    b.clear() // Clear the array
+
+    return 0 // Return 0 to indicate success
+}

@@ -1,0 +1,25 @@
+// Use the time library
+use "time"
+
+// Start with a main function that returns an int
+func main() -> int {
+    // Get the current time as a float
+    start_time = time_now()
+
+    // Loop from 0 - 1 billion
+    i = 0
+    while i < 1000000000 {
+        i = i + 1
+    }
+
+    // Subtract the current time from the start time to get the time it took to execute the loop
+    print(time_now() - start_time)
+
+    print("Waiting 3 seconds")
+
+    sleep(3)
+
+    print("Waited 3 seconds")
+
+    return 0 // Return 0 to indicate success
+}

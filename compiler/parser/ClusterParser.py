@@ -10,74 +10,80 @@ else:
 
 def serializedATN():
     return [
-        4,1,35,194,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
+        4,1,40,210,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
         6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,2,11,7,11,2,12,7,12,2,13,7,13,
-        2,14,7,14,2,15,7,15,2,16,7,16,2,17,7,17,1,0,5,0,38,8,0,10,0,12,0,
-        41,9,0,1,0,1,0,1,1,1,1,1,1,5,1,48,8,1,10,1,12,1,51,9,1,1,2,1,2,1,
-        2,1,2,1,2,3,2,58,8,2,1,3,1,3,1,3,3,3,63,8,3,1,4,1,4,5,4,67,8,4,10,
-        4,12,4,70,9,4,1,4,1,4,1,5,1,5,1,5,1,5,5,5,78,8,5,10,5,12,5,81,9,
-        5,1,5,3,5,84,8,5,1,6,1,6,1,6,1,6,1,6,1,7,1,7,1,7,1,8,1,8,1,8,1,8,
-        1,9,1,9,1,9,1,9,3,9,102,8,9,1,9,1,9,1,9,3,9,107,8,9,1,9,1,9,1,10,
-        3,10,112,8,10,1,10,1,10,1,10,1,10,1,11,1,11,1,12,1,12,1,12,5,12,
-        123,8,12,10,12,12,12,126,9,12,1,13,3,13,129,8,13,1,13,1,13,1,14,
-        1,14,1,14,5,14,136,8,14,10,14,12,14,139,9,14,1,15,1,15,1,15,3,15,
-        144,8,15,1,15,1,15,1,16,1,16,1,16,1,16,1,16,1,16,1,16,1,16,1,16,
-        1,16,3,16,158,8,16,1,17,1,17,1,17,1,17,1,17,3,17,165,8,17,1,17,1,
-        17,1,17,1,17,1,17,1,17,1,17,1,17,1,17,1,17,1,17,1,17,1,17,1,17,1,
-        17,1,17,1,17,3,17,184,8,17,1,17,3,17,187,8,17,5,17,189,8,17,10,17,
-        12,17,192,9,17,1,17,0,1,34,18,0,2,4,6,8,10,12,14,16,18,20,22,24,
-        26,28,30,32,34,0,4,1,0,12,13,1,0,14,16,1,0,17,22,1,0,23,24,207,0,
-        39,1,0,0,0,2,44,1,0,0,0,4,57,1,0,0,0,6,62,1,0,0,0,8,64,1,0,0,0,10,
-        73,1,0,0,0,12,85,1,0,0,0,14,90,1,0,0,0,16,93,1,0,0,0,18,97,1,0,0,
-        0,20,111,1,0,0,0,22,117,1,0,0,0,24,119,1,0,0,0,26,128,1,0,0,0,28,
-        132,1,0,0,0,30,140,1,0,0,0,32,157,1,0,0,0,34,164,1,0,0,0,36,38,3,
-        4,2,0,37,36,1,0,0,0,38,41,1,0,0,0,39,37,1,0,0,0,39,40,1,0,0,0,40,
-        42,1,0,0,0,41,39,1,0,0,0,42,43,5,0,0,1,43,1,1,0,0,0,44,49,5,11,0,
-        0,45,46,5,26,0,0,46,48,5,11,0,0,47,45,1,0,0,0,48,51,1,0,0,0,49,47,
-        1,0,0,0,49,50,1,0,0,0,50,3,1,0,0,0,51,49,1,0,0,0,52,58,3,20,10,0,
-        53,58,3,18,9,0,54,58,3,10,5,0,55,58,3,16,8,0,56,58,3,34,17,0,57,
-        52,1,0,0,0,57,53,1,0,0,0,57,54,1,0,0,0,57,55,1,0,0,0,57,56,1,0,0,
-        0,58,5,1,0,0,0,59,63,3,4,2,0,60,61,5,5,0,0,61,63,3,34,17,0,62,59,
-        1,0,0,0,62,60,1,0,0,0,63,7,1,0,0,0,64,68,5,31,0,0,65,67,3,6,3,0,
-        66,65,1,0,0,0,67,70,1,0,0,0,68,66,1,0,0,0,68,69,1,0,0,0,69,71,1,
-        0,0,0,70,68,1,0,0,0,71,72,5,32,0,0,72,9,1,0,0,0,73,74,5,1,0,0,74,
-        75,3,34,17,0,75,79,3,8,4,0,76,78,3,12,6,0,77,76,1,0,0,0,78,81,1,
-        0,0,0,79,77,1,0,0,0,79,80,1,0,0,0,80,83,1,0,0,0,81,79,1,0,0,0,82,
-        84,3,14,7,0,83,82,1,0,0,0,83,84,1,0,0,0,84,11,1,0,0,0,85,86,5,2,
-        0,0,86,87,5,1,0,0,87,88,3,34,17,0,88,89,3,8,4,0,89,13,1,0,0,0,90,
-        91,5,2,0,0,91,92,3,8,4,0,92,15,1,0,0,0,93,94,5,4,0,0,94,95,3,34,
-        17,0,95,96,3,8,4,0,96,17,1,0,0,0,97,98,5,3,0,0,98,99,5,11,0,0,99,
-        101,5,29,0,0,100,102,3,28,14,0,101,100,1,0,0,0,101,102,1,0,0,0,102,
-        103,1,0,0,0,103,106,5,30,0,0,104,105,5,33,0,0,105,107,3,2,1,0,106,
-        104,1,0,0,0,106,107,1,0,0,0,107,108,1,0,0,0,108,109,3,8,4,0,109,
-        19,1,0,0,0,110,112,3,2,1,0,111,110,1,0,0,0,111,112,1,0,0,0,112,113,
-        1,0,0,0,113,114,5,11,0,0,114,115,5,28,0,0,115,116,3,34,17,0,116,
-        21,1,0,0,0,117,118,3,34,17,0,118,23,1,0,0,0,119,124,3,22,11,0,120,
-        121,5,27,0,0,121,123,3,22,11,0,122,120,1,0,0,0,123,126,1,0,0,0,124,
-        122,1,0,0,0,124,125,1,0,0,0,125,25,1,0,0,0,126,124,1,0,0,0,127,129,
-        3,2,1,0,128,127,1,0,0,0,128,129,1,0,0,0,129,130,1,0,0,0,130,131,
-        5,11,0,0,131,27,1,0,0,0,132,137,3,26,13,0,133,134,5,27,0,0,134,136,
-        3,26,13,0,135,133,1,0,0,0,136,139,1,0,0,0,137,135,1,0,0,0,137,138,
-        1,0,0,0,138,29,1,0,0,0,139,137,1,0,0,0,140,141,5,11,0,0,141,143,
-        5,29,0,0,142,144,3,24,12,0,143,142,1,0,0,0,143,144,1,0,0,0,144,145,
-        1,0,0,0,145,146,5,30,0,0,146,31,1,0,0,0,147,158,5,6,0,0,148,158,
-        5,7,0,0,149,158,5,8,0,0,150,158,5,9,0,0,151,158,5,10,0,0,152,158,
-        5,11,0,0,153,154,5,29,0,0,154,155,3,34,17,0,155,156,5,30,0,0,156,
-        158,1,0,0,0,157,147,1,0,0,0,157,148,1,0,0,0,157,149,1,0,0,0,157,
-        150,1,0,0,0,157,151,1,0,0,0,157,152,1,0,0,0,157,153,1,0,0,0,158,
-        33,1,0,0,0,159,160,6,17,-1,0,160,165,3,30,15,0,161,165,3,32,16,0,
-        162,163,5,25,0,0,163,165,3,34,17,5,164,159,1,0,0,0,164,161,1,0,0,
-        0,164,162,1,0,0,0,165,190,1,0,0,0,166,167,10,4,0,0,167,168,7,0,0,
-        0,168,189,3,34,17,5,169,170,10,3,0,0,170,171,7,1,0,0,171,189,3,34,
-        17,4,172,173,10,2,0,0,173,174,7,2,0,0,174,189,3,34,17,3,175,176,
-        10,1,0,0,176,177,7,3,0,0,177,189,3,34,17,2,178,179,10,7,0,0,179,
-        180,5,26,0,0,180,186,5,11,0,0,181,183,5,29,0,0,182,184,3,24,12,0,
-        183,182,1,0,0,0,183,184,1,0,0,0,184,185,1,0,0,0,185,187,5,30,0,0,
-        186,181,1,0,0,0,186,187,1,0,0,0,187,189,1,0,0,0,188,166,1,0,0,0,
-        188,169,1,0,0,0,188,172,1,0,0,0,188,175,1,0,0,0,188,178,1,0,0,0,
-        189,192,1,0,0,0,190,188,1,0,0,0,190,191,1,0,0,0,191,35,1,0,0,0,192,
-        190,1,0,0,0,20,39,49,57,62,68,79,83,101,106,111,124,128,137,143,
-        157,164,183,186,188,190
+        2,14,7,14,2,15,7,15,2,16,7,16,2,17,7,17,2,18,7,18,1,0,5,0,40,8,0,
+        10,0,12,0,43,9,0,1,0,1,0,1,1,1,1,1,1,1,1,3,1,51,8,1,1,2,1,2,1,2,
+        1,2,1,2,1,2,3,2,59,8,2,1,3,1,3,1,3,3,3,64,8,3,1,4,1,4,5,4,68,8,4,
+        10,4,12,4,71,9,4,1,4,1,4,1,5,1,5,1,5,1,5,5,5,79,8,5,10,5,12,5,82,
+        9,5,1,5,3,5,85,8,5,1,6,1,6,1,6,1,6,1,6,1,7,1,7,1,7,1,8,1,8,1,8,1,
+        8,1,9,1,9,1,9,1,9,5,9,103,8,9,10,9,12,9,106,9,9,1,10,1,10,1,10,1,
+        10,3,10,112,8,10,1,10,1,10,1,10,3,10,117,8,10,1,10,1,10,1,11,3,11,
+        122,8,11,1,11,1,11,1,11,1,11,1,12,1,12,1,13,1,13,1,13,5,13,133,8,
+        13,10,13,12,13,136,9,13,1,14,1,14,1,14,1,15,1,15,1,15,5,15,144,8,
+        15,10,15,12,15,147,9,15,1,16,1,16,1,16,3,16,152,8,16,1,16,1,16,1,
+        17,1,17,1,17,1,17,1,17,1,17,1,17,1,17,1,17,1,17,1,17,1,17,1,17,3,
+        17,169,8,17,1,17,1,17,1,17,3,17,174,8,17,1,18,1,18,1,18,1,18,1,18,
+        3,18,181,8,18,1,18,1,18,1,18,1,18,1,18,1,18,1,18,1,18,1,18,1,18,
+        1,18,1,18,1,18,1,18,1,18,1,18,1,18,3,18,200,8,18,1,18,3,18,203,8,
+        18,5,18,205,8,18,10,18,12,18,208,9,18,1,18,0,1,36,19,0,2,4,6,8,10,
+        12,14,16,18,20,22,24,26,28,30,32,34,36,0,4,1,0,15,16,1,0,17,19,1,
+        0,20,25,1,0,26,27,226,0,41,1,0,0,0,2,46,1,0,0,0,4,58,1,0,0,0,6,63,
+        1,0,0,0,8,65,1,0,0,0,10,74,1,0,0,0,12,86,1,0,0,0,14,91,1,0,0,0,16,
+        94,1,0,0,0,18,98,1,0,0,0,20,107,1,0,0,0,22,121,1,0,0,0,24,127,1,
+        0,0,0,26,129,1,0,0,0,28,137,1,0,0,0,30,140,1,0,0,0,32,148,1,0,0,
+        0,34,173,1,0,0,0,36,180,1,0,0,0,38,40,3,4,2,0,39,38,1,0,0,0,40,43,
+        1,0,0,0,41,39,1,0,0,0,41,42,1,0,0,0,42,44,1,0,0,0,43,41,1,0,0,0,
+        44,45,5,0,0,1,45,1,1,0,0,0,46,50,5,13,0,0,47,48,5,36,0,0,48,49,5,
+        13,0,0,49,51,5,37,0,0,50,47,1,0,0,0,50,51,1,0,0,0,51,3,1,0,0,0,52,
+        59,3,22,11,0,53,59,3,20,10,0,54,59,3,10,5,0,55,59,3,16,8,0,56,59,
+        3,18,9,0,57,59,3,36,18,0,58,52,1,0,0,0,58,53,1,0,0,0,58,54,1,0,0,
+        0,58,55,1,0,0,0,58,56,1,0,0,0,58,57,1,0,0,0,59,5,1,0,0,0,60,64,3,
+        4,2,0,61,62,5,6,0,0,62,64,3,36,18,0,63,60,1,0,0,0,63,61,1,0,0,0,
+        64,7,1,0,0,0,65,69,5,34,0,0,66,68,3,6,3,0,67,66,1,0,0,0,68,71,1,
+        0,0,0,69,67,1,0,0,0,69,70,1,0,0,0,70,72,1,0,0,0,71,69,1,0,0,0,72,
+        73,5,35,0,0,73,9,1,0,0,0,74,75,5,1,0,0,75,76,3,36,18,0,76,80,3,8,
+        4,0,77,79,3,12,6,0,78,77,1,0,0,0,79,82,1,0,0,0,80,78,1,0,0,0,80,
+        81,1,0,0,0,81,84,1,0,0,0,82,80,1,0,0,0,83,85,3,14,7,0,84,83,1,0,
+        0,0,84,85,1,0,0,0,85,11,1,0,0,0,86,87,5,3,0,0,87,88,5,1,0,0,88,89,
+        3,36,18,0,89,90,3,8,4,0,90,13,1,0,0,0,91,92,5,3,0,0,92,93,3,8,4,
+        0,93,15,1,0,0,0,94,95,5,5,0,0,95,96,3,36,18,0,96,97,3,8,4,0,97,17,
+        1,0,0,0,98,99,5,2,0,0,99,104,5,10,0,0,100,101,5,30,0,0,101,103,5,
+        10,0,0,102,100,1,0,0,0,103,106,1,0,0,0,104,102,1,0,0,0,104,105,1,
+        0,0,0,105,19,1,0,0,0,106,104,1,0,0,0,107,108,5,4,0,0,108,109,5,13,
+        0,0,109,111,5,32,0,0,110,112,3,30,15,0,111,110,1,0,0,0,111,112,1,
+        0,0,0,112,113,1,0,0,0,113,116,5,33,0,0,114,115,5,38,0,0,115,117,
+        3,2,1,0,116,114,1,0,0,0,116,117,1,0,0,0,117,118,1,0,0,0,118,119,
+        3,8,4,0,119,21,1,0,0,0,120,122,3,2,1,0,121,120,1,0,0,0,121,122,1,
+        0,0,0,122,123,1,0,0,0,123,124,5,13,0,0,124,125,5,31,0,0,125,126,
+        3,36,18,0,126,23,1,0,0,0,127,128,3,36,18,0,128,25,1,0,0,0,129,134,
+        3,24,12,0,130,131,5,30,0,0,131,133,3,24,12,0,132,130,1,0,0,0,133,
+        136,1,0,0,0,134,132,1,0,0,0,134,135,1,0,0,0,135,27,1,0,0,0,136,134,
+        1,0,0,0,137,138,3,2,1,0,138,139,5,13,0,0,139,29,1,0,0,0,140,145,
+        3,28,14,0,141,142,5,30,0,0,142,144,3,28,14,0,143,141,1,0,0,0,144,
+        147,1,0,0,0,145,143,1,0,0,0,145,146,1,0,0,0,146,31,1,0,0,0,147,145,
+        1,0,0,0,148,149,5,13,0,0,149,151,5,32,0,0,150,152,3,26,13,0,151,
+        150,1,0,0,0,151,152,1,0,0,0,152,153,1,0,0,0,153,154,5,33,0,0,154,
+        33,1,0,0,0,155,174,5,7,0,0,156,174,5,8,0,0,157,174,5,10,0,0,158,
+        174,5,11,0,0,159,174,5,12,0,0,160,174,5,13,0,0,161,162,5,32,0,0,
+        162,163,3,36,18,0,163,164,5,33,0,0,164,174,1,0,0,0,165,166,3,2,1,
+        0,166,168,5,34,0,0,167,169,3,26,13,0,168,167,1,0,0,0,168,169,1,0,
+        0,0,169,170,1,0,0,0,170,171,5,35,0,0,171,174,1,0,0,0,172,174,5,14,
+        0,0,173,155,1,0,0,0,173,156,1,0,0,0,173,157,1,0,0,0,173,158,1,0,
+        0,0,173,159,1,0,0,0,173,160,1,0,0,0,173,161,1,0,0,0,173,165,1,0,
+        0,0,173,172,1,0,0,0,174,35,1,0,0,0,175,176,6,18,-1,0,176,181,3,32,
+        16,0,177,181,3,34,17,0,178,179,5,28,0,0,179,181,3,36,18,5,180,175,
+        1,0,0,0,180,177,1,0,0,0,180,178,1,0,0,0,181,206,1,0,0,0,182,183,
+        10,4,0,0,183,184,7,0,0,0,184,205,3,36,18,5,185,186,10,3,0,0,186,
+        187,7,1,0,0,187,205,3,36,18,4,188,189,10,2,0,0,189,190,7,2,0,0,190,
+        205,3,36,18,3,191,192,10,1,0,0,192,193,7,3,0,0,193,205,3,36,18,2,
+        194,195,10,7,0,0,195,196,5,29,0,0,196,202,5,13,0,0,197,199,5,32,
+        0,0,198,200,3,26,13,0,199,198,1,0,0,0,199,200,1,0,0,0,200,201,1,
+        0,0,0,201,203,5,33,0,0,202,197,1,0,0,0,202,203,1,0,0,0,203,205,1,
+        0,0,0,204,182,1,0,0,0,204,185,1,0,0,0,204,188,1,0,0,0,204,191,1,
+        0,0,0,204,194,1,0,0,0,205,208,1,0,0,0,206,204,1,0,0,0,206,207,1,
+        0,0,0,207,37,1,0,0,0,208,206,1,0,0,0,21,41,50,58,63,69,80,84,104,
+        111,116,121,134,145,151,168,173,180,199,202,204,206
     ]
 
 class ClusterParser ( Parser ):
@@ -90,19 +96,21 @@ class ClusterParser ( Parser ):
 
     sharedContextCache = PredictionContextCache()
 
-    literalNames = [ "<INVALID>", "'if'", "'else'", "'func'", "'while'", 
-                     "'return'", "<INVALID>", "<INVALID>", "<INVALID>", 
-                     "<INVALID>", "'nil'", "<INVALID>", "'+'", "'-'", "'*'", 
-                     "'/'", "'%'", "'=='", "'!='", "'>'", "'<'", "'>='", 
-                     "'<='", "'&&'", "'||'", "'!'", "'.'", "','", "'='", 
-                     "'('", "')'", "'{'", "'}'", "'->'" ]
+    literalNames = [ "<INVALID>", "'if'", "'use'", "'else'", "'func'", "'while'", 
+                     "'return'", "<INVALID>", "<INVALID>", "'''", "<INVALID>", 
+                     "<INVALID>", "'nil'", "<INVALID>", "<INVALID>", "'+'", 
+                     "'-'", "'*'", "'/'", "'%'", "'=='", "'!='", "'>'", 
+                     "'<'", "'>='", "'<='", "'&&'", "'||'", "'!'", "'.'", 
+                     "','", "'='", "'('", "')'", "'{'", "'}'", "'['", "']'", 
+                     "'->'" ]
 
-    symbolicNames = [ "<INVALID>", "IF", "ELSE", "FUNC", "WHILE", "RETURN", 
-                      "INT", "FLOAT", "STRING", "BOOL", "NIL", "ID", "ADD", 
-                      "SUB", "MUL", "DIV", "MOD", "EEQ", "NEQ", "GT", "LT", 
-                      "GTE", "LTE", "AND", "OR", "NOT", "DOT", "COMMA", 
-                      "ASSIGN", "LPAREN", "RPAREN", "LBRACE", "RBRACE", 
-                      "RETURNS", "COMMENT", "WHITESPACE" ]
+    symbolicNames = [ "<INVALID>", "IF", "USE", "ELSE", "FUNC", "WHILE", 
+                      "RETURN", "INT", "FLOAT", "APOSTROPHE", "STRING", 
+                      "BOOL", "NIL", "ID", "HEX", "ADD", "SUB", "MUL", "DIV", 
+                      "MOD", "EEQ", "NEQ", "GT", "LT", "GTE", "LTE", "AND", 
+                      "OR", "NOT", "DOT", "COMMA", "ASSIGN", "LPAREN", "RPAREN", 
+                      "LBRACE", "RBRACE", "LBRACK", "RBRACK", "RETURNS", 
+                      "COMMENT", "WHITESPACE" ]
 
     RULE_parse = 0
     RULE_type = 1
@@ -113,57 +121,63 @@ class ClusterParser ( Parser ):
     RULE_elseifStmt = 6
     RULE_elseStmt = 7
     RULE_whileStmt = 8
-    RULE_funcAssign = 9
-    RULE_varAssign = 10
-    RULE_arg = 11
-    RULE_args = 12
-    RULE_param = 13
-    RULE_params = 14
-    RULE_call = 15
-    RULE_atom = 16
-    RULE_expr = 17
+    RULE_useStmt = 9
+    RULE_funcAssign = 10
+    RULE_varAssign = 11
+    RULE_arg = 12
+    RULE_args = 13
+    RULE_param = 14
+    RULE_params = 15
+    RULE_call = 16
+    RULE_atom = 17
+    RULE_expr = 18
 
     ruleNames =  [ "parse", "type", "stmt", "bodyStmts", "body", "ifStmt", 
-                   "elseifStmt", "elseStmt", "whileStmt", "funcAssign", 
+                   "elseifStmt", "elseStmt", "whileStmt", "useStmt", "funcAssign", 
                    "varAssign", "arg", "args", "param", "params", "call", 
                    "atom", "expr" ]
 
     EOF = Token.EOF
     IF=1
-    ELSE=2
-    FUNC=3
-    WHILE=4
-    RETURN=5
-    INT=6
-    FLOAT=7
-    STRING=8
-    BOOL=9
-    NIL=10
-    ID=11
-    ADD=12
-    SUB=13
-    MUL=14
-    DIV=15
-    MOD=16
-    EEQ=17
-    NEQ=18
-    GT=19
-    LT=20
-    GTE=21
-    LTE=22
-    AND=23
-    OR=24
-    NOT=25
-    DOT=26
-    COMMA=27
-    ASSIGN=28
-    LPAREN=29
-    RPAREN=30
-    LBRACE=31
-    RBRACE=32
-    RETURNS=33
-    COMMENT=34
-    WHITESPACE=35
+    USE=2
+    ELSE=3
+    FUNC=4
+    WHILE=5
+    RETURN=6
+    INT=7
+    FLOAT=8
+    APOSTROPHE=9
+    STRING=10
+    BOOL=11
+    NIL=12
+    ID=13
+    HEX=14
+    ADD=15
+    SUB=16
+    MUL=17
+    DIV=18
+    MOD=19
+    EEQ=20
+    NEQ=21
+    GT=22
+    LT=23
+    GTE=24
+    LTE=25
+    AND=26
+    OR=27
+    NOT=28
+    DOT=29
+    COMMA=30
+    ASSIGN=31
+    LPAREN=32
+    RPAREN=33
+    LBRACE=34
+    RBRACE=35
+    LBRACK=36
+    RBRACK=37
+    RETURNS=38
+    COMMENT=39
+    WHITESPACE=40
 
     def __init__(self, input:TokenStream, output:TextIO = sys.stdout):
         super().__init__(input, output)
@@ -210,17 +224,17 @@ class ClusterParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 39
+            self.state = 41
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 570429402) != 0):
-                self.state = 36
+            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 4563434934) != 0):
+                self.state = 38
                 self.stmt()
-                self.state = 41
+                self.state = 43
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 42
+            self.state = 44
             self.match(ClusterParser.EOF)
         except RecognitionException as re:
             localctx.exception = re
@@ -244,11 +258,11 @@ class ClusterParser ( Parser ):
             else:
                 return self.getToken(ClusterParser.ID, i)
 
-        def DOT(self, i:int=None):
-            if i is None:
-                return self.getTokens(ClusterParser.DOT)
-            else:
-                return self.getToken(ClusterParser.DOT, i)
+        def LBRACK(self):
+            return self.getToken(ClusterParser.LBRACK, 0)
+
+        def RBRACK(self):
+            return self.getToken(ClusterParser.RBRACK, 0)
 
         def getRuleIndex(self):
             return ClusterParser.RULE_type
@@ -269,19 +283,19 @@ class ClusterParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 44
+            self.state = 46
             self.match(ClusterParser.ID)
-            self.state = 49
+            self.state = 50
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==26:
-                self.state = 45
-                self.match(ClusterParser.DOT)
-                self.state = 46
+            if _la==36:
+                self.state = 47
+                self.match(ClusterParser.LBRACK)
+                self.state = 48
                 self.match(ClusterParser.ID)
-                self.state = 51
-                self._errHandler.sync(self)
-                _la = self._input.LA(1)
+                self.state = 49
+                self.match(ClusterParser.RBRACK)
+
 
         except RecognitionException as re:
             localctx.exception = re
@@ -315,6 +329,10 @@ class ClusterParser ( Parser ):
             return self.getTypedRuleContext(ClusterParser.WhileStmtContext,0)
 
 
+        def useStmt(self):
+            return self.getTypedRuleContext(ClusterParser.UseStmtContext,0)
+
+
         def expr(self):
             return self.getTypedRuleContext(ClusterParser.ExprContext,0)
 
@@ -336,7 +354,7 @@ class ClusterParser ( Parser ):
         localctx = ClusterParser.StmtContext(self, self._ctx, self.state)
         self.enterRule(localctx, 4, self.RULE_stmt)
         try:
-            self.state = 57
+            self.state = 58
             self._errHandler.sync(self)
             la_ = self._interp.adaptivePredict(self._input,2,self._ctx)
             if la_ == 1:
@@ -366,6 +384,12 @@ class ClusterParser ( Parser ):
             elif la_ == 5:
                 self.enterOuterAlt(localctx, 5)
                 self.state = 56
+                self.useStmt()
+                pass
+
+            elif la_ == 6:
+                self.enterOuterAlt(localctx, 6)
+                self.state = 57
                 self.expr(0)
                 pass
 
@@ -414,19 +438,19 @@ class ClusterParser ( Parser ):
         localctx = ClusterParser.BodyStmtsContext(self, self._ctx, self.state)
         self.enterRule(localctx, 6, self.RULE_bodyStmts)
         try:
-            self.state = 62
+            self.state = 63
             self._errHandler.sync(self)
             token = self._input.LA(1)
-            if token in [1, 3, 4, 6, 7, 8, 9, 10, 11, 25, 29]:
+            if token in [1, 2, 4, 5, 7, 8, 10, 11, 12, 13, 14, 28, 32]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 59
+                self.state = 60
                 self.stmt()
                 pass
-            elif token in [5]:
+            elif token in [6]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 60
-                self.match(ClusterParser.RETURN)
                 self.state = 61
+                self.match(ClusterParser.RETURN)
+                self.state = 62
                 self.expr(0)
                 pass
             else:
@@ -480,19 +504,19 @@ class ClusterParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 64
+            self.state = 65
             self.match(ClusterParser.LBRACE)
-            self.state = 68
+            self.state = 69
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 570429434) != 0):
-                self.state = 65
+            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 4563434998) != 0):
+                self.state = 66
                 self.bodyStmts()
-                self.state = 70
+                self.state = 71
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 71
+            self.state = 72
             self.match(ClusterParser.RBRACE)
         except RecognitionException as re:
             localctx.exception = re
@@ -551,28 +575,28 @@ class ClusterParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 73
-            self.match(ClusterParser.IF)
             self.state = 74
-            self.expr(0)
+            self.match(ClusterParser.IF)
             self.state = 75
+            self.expr(0)
+            self.state = 76
             self.body()
-            self.state = 79
+            self.state = 80
             self._errHandler.sync(self)
             _alt = self._interp.adaptivePredict(self._input,5,self._ctx)
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                 if _alt==1:
-                    self.state = 76
+                    self.state = 77
                     self.elseifStmt() 
-                self.state = 81
+                self.state = 82
                 self._errHandler.sync(self)
                 _alt = self._interp.adaptivePredict(self._input,5,self._ctx)
 
-            self.state = 83
+            self.state = 84
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if _la==2:
-                self.state = 82
+            if _la==3:
+                self.state = 83
                 self.elseStmt()
 
 
@@ -624,13 +648,13 @@ class ClusterParser ( Parser ):
         self.enterRule(localctx, 12, self.RULE_elseifStmt)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 85
-            self.match(ClusterParser.ELSE)
             self.state = 86
-            self.match(ClusterParser.IF)
+            self.match(ClusterParser.ELSE)
             self.state = 87
-            self.expr(0)
+            self.match(ClusterParser.IF)
             self.state = 88
+            self.expr(0)
+            self.state = 89
             self.body()
         except RecognitionException as re:
             localctx.exception = re
@@ -673,9 +697,9 @@ class ClusterParser ( Parser ):
         self.enterRule(localctx, 14, self.RULE_elseStmt)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 90
-            self.match(ClusterParser.ELSE)
             self.state = 91
+            self.match(ClusterParser.ELSE)
+            self.state = 92
             self.body()
         except RecognitionException as re:
             localctx.exception = re
@@ -722,12 +746,78 @@ class ClusterParser ( Parser ):
         self.enterRule(localctx, 16, self.RULE_whileStmt)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 93
-            self.match(ClusterParser.WHILE)
             self.state = 94
-            self.expr(0)
+            self.match(ClusterParser.WHILE)
             self.state = 95
+            self.expr(0)
+            self.state = 96
             self.body()
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class UseStmtContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def USE(self):
+            return self.getToken(ClusterParser.USE, 0)
+
+        def STRING(self, i:int=None):
+            if i is None:
+                return self.getTokens(ClusterParser.STRING)
+            else:
+                return self.getToken(ClusterParser.STRING, i)
+
+        def COMMA(self, i:int=None):
+            if i is None:
+                return self.getTokens(ClusterParser.COMMA)
+            else:
+                return self.getToken(ClusterParser.COMMA, i)
+
+        def getRuleIndex(self):
+            return ClusterParser.RULE_useStmt
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitUseStmt" ):
+                return visitor.visitUseStmt(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+
+
+    def useStmt(self):
+
+        localctx = ClusterParser.UseStmtContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 18, self.RULE_useStmt)
+        self._la = 0 # Token type
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 98
+            self.match(ClusterParser.USE)
+            self.state = 99
+            self.match(ClusterParser.STRING)
+            self.state = 104
+            self._errHandler.sync(self)
+            _la = self._input.LA(1)
+            while _la==30:
+                self.state = 100
+                self.match(ClusterParser.COMMA)
+                self.state = 101
+                self.match(ClusterParser.STRING)
+                self.state = 106
+                self._errHandler.sync(self)
+                _la = self._input.LA(1)
+
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -786,37 +876,37 @@ class ClusterParser ( Parser ):
     def funcAssign(self):
 
         localctx = ClusterParser.FuncAssignContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 18, self.RULE_funcAssign)
+        self.enterRule(localctx, 20, self.RULE_funcAssign)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 97
+            self.state = 107
             self.match(ClusterParser.FUNC)
-            self.state = 98
+            self.state = 108
             self.match(ClusterParser.ID)
-            self.state = 99
+            self.state = 109
             self.match(ClusterParser.LPAREN)
-            self.state = 101
+            self.state = 111
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if _la==11:
-                self.state = 100
+            if _la==13:
+                self.state = 110
                 self.params()
 
 
-            self.state = 103
+            self.state = 113
             self.match(ClusterParser.RPAREN)
-            self.state = 106
+            self.state = 116
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if _la==33:
-                self.state = 104
+            if _la==38:
+                self.state = 114
                 self.match(ClusterParser.RETURNS)
-                self.state = 105
+                self.state = 115
                 self.type_()
 
 
-            self.state = 108
+            self.state = 118
             self.body()
         except RecognitionException as re:
             localctx.exception = re
@@ -863,22 +953,22 @@ class ClusterParser ( Parser ):
     def varAssign(self):
 
         localctx = ClusterParser.VarAssignContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 20, self.RULE_varAssign)
+        self.enterRule(localctx, 22, self.RULE_varAssign)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 111
+            self.state = 121
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,9,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,10,self._ctx)
             if la_ == 1:
-                self.state = 110
+                self.state = 120
                 self.type_()
 
 
-            self.state = 113
+            self.state = 123
             self.match(ClusterParser.ID)
-            self.state = 114
+            self.state = 124
             self.match(ClusterParser.ASSIGN)
-            self.state = 115
+            self.state = 125
             self.expr(0)
         except RecognitionException as re:
             localctx.exception = re
@@ -915,10 +1005,10 @@ class ClusterParser ( Parser ):
     def arg(self):
 
         localctx = ClusterParser.ArgContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 22, self.RULE_arg)
+        self.enterRule(localctx, 24, self.RULE_arg)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 117
+            self.state = 127
             self.expr(0)
         except RecognitionException as re:
             localctx.exception = re
@@ -964,21 +1054,21 @@ class ClusterParser ( Parser ):
     def args(self):
 
         localctx = ClusterParser.ArgsContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 24, self.RULE_args)
+        self.enterRule(localctx, 26, self.RULE_args)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 119
+            self.state = 129
             self.arg()
-            self.state = 124
+            self.state = 134
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==27:
-                self.state = 120
+            while _la==30:
+                self.state = 130
                 self.match(ClusterParser.COMMA)
-                self.state = 121
+                self.state = 131
                 self.arg()
-                self.state = 126
+                self.state = 136
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -998,12 +1088,12 @@ class ClusterParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
-        def ID(self):
-            return self.getToken(ClusterParser.ID, 0)
-
         def type_(self):
             return self.getTypedRuleContext(ClusterParser.TypeContext,0)
 
+
+        def ID(self):
+            return self.getToken(ClusterParser.ID, 0)
 
         def getRuleIndex(self):
             return ClusterParser.RULE_param
@@ -1020,18 +1110,12 @@ class ClusterParser ( Parser ):
     def param(self):
 
         localctx = ClusterParser.ParamContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 26, self.RULE_param)
+        self.enterRule(localctx, 28, self.RULE_param)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 128
-            self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,11,self._ctx)
-            if la_ == 1:
-                self.state = 127
-                self.type_()
-
-
-            self.state = 130
+            self.state = 137
+            self.type_()
+            self.state = 138
             self.match(ClusterParser.ID)
         except RecognitionException as re:
             localctx.exception = re
@@ -1077,21 +1161,21 @@ class ClusterParser ( Parser ):
     def params(self):
 
         localctx = ClusterParser.ParamsContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 28, self.RULE_params)
+        self.enterRule(localctx, 30, self.RULE_params)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 132
+            self.state = 140
             self.param()
-            self.state = 137
+            self.state = 145
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==27:
-                self.state = 133
+            while _la==30:
+                self.state = 141
                 self.match(ClusterParser.COMMA)
-                self.state = 134
+                self.state = 142
                 self.param()
-                self.state = 139
+                self.state = 147
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -1139,23 +1223,23 @@ class ClusterParser ( Parser ):
     def call(self):
 
         localctx = ClusterParser.CallContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 30, self.RULE_call)
+        self.enterRule(localctx, 32, self.RULE_call)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 140
+            self.state = 148
             self.match(ClusterParser.ID)
-            self.state = 141
+            self.state = 149
             self.match(ClusterParser.LPAREN)
-            self.state = 143
+            self.state = 151
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if (((_la) & ~0x3f) == 0 and ((1 << _la) & 570429376) != 0):
-                self.state = 142
+            if (((_la) & ~0x3f) == 0 and ((1 << _la) & 4563434880) != 0):
+                self.state = 150
                 self.args()
 
 
-            self.state = 145
+            self.state = 153
             self.match(ClusterParser.RPAREN)
         except RecognitionException as re:
             localctx.exception = re
@@ -1201,6 +1285,23 @@ class ClusterParser ( Parser ):
         def RPAREN(self):
             return self.getToken(ClusterParser.RPAREN, 0)
 
+        def type_(self):
+            return self.getTypedRuleContext(ClusterParser.TypeContext,0)
+
+
+        def LBRACE(self):
+            return self.getToken(ClusterParser.LBRACE, 0)
+
+        def RBRACE(self):
+            return self.getToken(ClusterParser.RBRACE, 0)
+
+        def args(self):
+            return self.getTypedRuleContext(ClusterParser.ArgsContext,0)
+
+
+        def HEX(self):
+            return self.getToken(ClusterParser.HEX, 0)
+
         def getRuleIndex(self):
             return ClusterParser.RULE_atom
 
@@ -1216,52 +1317,82 @@ class ClusterParser ( Parser ):
     def atom(self):
 
         localctx = ClusterParser.AtomContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 32, self.RULE_atom)
+        self.enterRule(localctx, 34, self.RULE_atom)
+        self._la = 0 # Token type
         try:
-            self.state = 157
+            self.state = 173
             self._errHandler.sync(self)
-            token = self._input.LA(1)
-            if token in [6]:
+            la_ = self._interp.adaptivePredict(self._input,15,self._ctx)
+            if la_ == 1:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 147
+                self.state = 155
                 self.match(ClusterParser.INT)
                 pass
-            elif token in [7]:
+
+            elif la_ == 2:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 148
+                self.state = 156
                 self.match(ClusterParser.FLOAT)
                 pass
-            elif token in [8]:
+
+            elif la_ == 3:
                 self.enterOuterAlt(localctx, 3)
-                self.state = 149
+                self.state = 157
                 self.match(ClusterParser.STRING)
                 pass
-            elif token in [9]:
+
+            elif la_ == 4:
                 self.enterOuterAlt(localctx, 4)
-                self.state = 150
+                self.state = 158
                 self.match(ClusterParser.BOOL)
                 pass
-            elif token in [10]:
+
+            elif la_ == 5:
                 self.enterOuterAlt(localctx, 5)
-                self.state = 151
+                self.state = 159
                 self.match(ClusterParser.NIL)
                 pass
-            elif token in [11]:
+
+            elif la_ == 6:
                 self.enterOuterAlt(localctx, 6)
-                self.state = 152
+                self.state = 160
                 self.match(ClusterParser.ID)
                 pass
-            elif token in [29]:
+
+            elif la_ == 7:
                 self.enterOuterAlt(localctx, 7)
-                self.state = 153
+                self.state = 161
                 self.match(ClusterParser.LPAREN)
-                self.state = 154
+                self.state = 162
                 self.expr(0)
-                self.state = 155
+                self.state = 163
                 self.match(ClusterParser.RPAREN)
                 pass
-            else:
-                raise NoViableAltException(self)
+
+            elif la_ == 8:
+                self.enterOuterAlt(localctx, 8)
+                self.state = 165
+                self.type_()
+                self.state = 166
+                self.match(ClusterParser.LBRACE)
+                self.state = 168
+                self._errHandler.sync(self)
+                _la = self._input.LA(1)
+                if (((_la) & ~0x3f) == 0 and ((1 << _la) & 4563434880) != 0):
+                    self.state = 167
+                    self.args()
+
+
+                self.state = 170
+                self.match(ClusterParser.RBRACE)
+                pass
+
+            elif la_ == 9:
+                self.enterOuterAlt(localctx, 9)
+                self.state = 172
+                self.match(ClusterParser.HEX)
+                pass
+
 
         except RecognitionException as re:
             localctx.exception = re
@@ -1369,155 +1500,155 @@ class ClusterParser ( Parser ):
         _parentState = self.state
         localctx = ClusterParser.ExprContext(self, self._ctx, _parentState)
         _prevctx = localctx
-        _startState = 34
-        self.enterRecursionRule(localctx, 34, self.RULE_expr, _p)
+        _startState = 36
+        self.enterRecursionRule(localctx, 36, self.RULE_expr, _p)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 164
+            self.state = 180
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,15,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,16,self._ctx)
             if la_ == 1:
-                self.state = 160
+                self.state = 176
                 self.call()
                 pass
 
             elif la_ == 2:
-                self.state = 161
+                self.state = 177
                 self.atom()
                 pass
 
             elif la_ == 3:
-                self.state = 162
+                self.state = 178
                 self.match(ClusterParser.NOT)
-                self.state = 163
+                self.state = 179
                 self.expr(5)
                 pass
 
 
             self._ctx.stop = self._input.LT(-1)
-            self.state = 190
+            self.state = 206
             self._errHandler.sync(self)
-            _alt = self._interp.adaptivePredict(self._input,19,self._ctx)
+            _alt = self._interp.adaptivePredict(self._input,20,self._ctx)
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                 if _alt==1:
                     if self._parseListeners is not None:
                         self.triggerExitRuleEvent()
                     _prevctx = localctx
-                    self.state = 188
+                    self.state = 204
                     self._errHandler.sync(self)
-                    la_ = self._interp.adaptivePredict(self._input,18,self._ctx)
+                    la_ = self._interp.adaptivePredict(self._input,19,self._ctx)
                     if la_ == 1:
                         localctx = ClusterParser.ExprContext(self, _parentctx, _parentState)
                         self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
-                        self.state = 166
+                        self.state = 182
                         if not self.precpred(self._ctx, 4):
                             from antlr4.error.Errors import FailedPredicateException
                             raise FailedPredicateException(self, "self.precpred(self._ctx, 4)")
-                        self.state = 167
+                        self.state = 183
                         localctx.op = self._input.LT(1)
                         _la = self._input.LA(1)
-                        if not(_la==12 or _la==13):
+                        if not(_la==15 or _la==16):
                             localctx.op = self._errHandler.recoverInline(self)
                         else:
                             self._errHandler.reportMatch(self)
                             self.consume()
-                        self.state = 168
+                        self.state = 184
                         self.expr(5)
                         pass
 
                     elif la_ == 2:
                         localctx = ClusterParser.ExprContext(self, _parentctx, _parentState)
                         self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
-                        self.state = 169
+                        self.state = 185
                         if not self.precpred(self._ctx, 3):
                             from antlr4.error.Errors import FailedPredicateException
                             raise FailedPredicateException(self, "self.precpred(self._ctx, 3)")
-                        self.state = 170
+                        self.state = 186
                         localctx.op = self._input.LT(1)
                         _la = self._input.LA(1)
-                        if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 114688) != 0)):
+                        if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 917504) != 0)):
                             localctx.op = self._errHandler.recoverInline(self)
                         else:
                             self._errHandler.reportMatch(self)
                             self.consume()
-                        self.state = 171
+                        self.state = 187
                         self.expr(4)
                         pass
 
                     elif la_ == 3:
                         localctx = ClusterParser.ExprContext(self, _parentctx, _parentState)
                         self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
-                        self.state = 172
+                        self.state = 188
                         if not self.precpred(self._ctx, 2):
                             from antlr4.error.Errors import FailedPredicateException
                             raise FailedPredicateException(self, "self.precpred(self._ctx, 2)")
-                        self.state = 173
+                        self.state = 189
                         localctx.op = self._input.LT(1)
                         _la = self._input.LA(1)
-                        if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 8257536) != 0)):
+                        if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 66060288) != 0)):
                             localctx.op = self._errHandler.recoverInline(self)
                         else:
                             self._errHandler.reportMatch(self)
                             self.consume()
-                        self.state = 174
+                        self.state = 190
                         self.expr(3)
                         pass
 
                     elif la_ == 4:
                         localctx = ClusterParser.ExprContext(self, _parentctx, _parentState)
                         self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
-                        self.state = 175
+                        self.state = 191
                         if not self.precpred(self._ctx, 1):
                             from antlr4.error.Errors import FailedPredicateException
                             raise FailedPredicateException(self, "self.precpred(self._ctx, 1)")
-                        self.state = 176
+                        self.state = 192
                         localctx.op = self._input.LT(1)
                         _la = self._input.LA(1)
-                        if not(_la==23 or _la==24):
+                        if not(_la==26 or _la==27):
                             localctx.op = self._errHandler.recoverInline(self)
                         else:
                             self._errHandler.reportMatch(self)
                             self.consume()
-                        self.state = 177
+                        self.state = 193
                         self.expr(2)
                         pass
 
                     elif la_ == 5:
                         localctx = ClusterParser.ExprContext(self, _parentctx, _parentState)
                         self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
-                        self.state = 178
+                        self.state = 194
                         if not self.precpred(self._ctx, 7):
                             from antlr4.error.Errors import FailedPredicateException
                             raise FailedPredicateException(self, "self.precpred(self._ctx, 7)")
-                        self.state = 179
+                        self.state = 195
                         self.match(ClusterParser.DOT)
-                        self.state = 180
+                        self.state = 196
                         self.match(ClusterParser.ID)
-                        self.state = 186
+                        self.state = 202
                         self._errHandler.sync(self)
-                        la_ = self._interp.adaptivePredict(self._input,17,self._ctx)
+                        la_ = self._interp.adaptivePredict(self._input,18,self._ctx)
                         if la_ == 1:
-                            self.state = 181
+                            self.state = 197
                             self.match(ClusterParser.LPAREN)
-                            self.state = 183
+                            self.state = 199
                             self._errHandler.sync(self)
                             _la = self._input.LA(1)
-                            if (((_la) & ~0x3f) == 0 and ((1 << _la) & 570429376) != 0):
-                                self.state = 182
+                            if (((_la) & ~0x3f) == 0 and ((1 << _la) & 4563434880) != 0):
+                                self.state = 198
                                 self.args()
 
 
-                            self.state = 185
+                            self.state = 201
                             self.match(ClusterParser.RPAREN)
 
 
                         pass
 
              
-                self.state = 192
+                self.state = 208
                 self._errHandler.sync(self)
-                _alt = self._interp.adaptivePredict(self._input,19,self._ctx)
+                _alt = self._interp.adaptivePredict(self._input,20,self._ctx)
 
         except RecognitionException as re:
             localctx.exception = re
@@ -1532,7 +1663,7 @@ class ClusterParser ( Parser ):
     def sempred(self, localctx:RuleContext, ruleIndex:int, predIndex:int):
         if self._predicates == None:
             self._predicates = dict()
-        self._predicates[17] = self.expr_sempred
+        self._predicates[18] = self.expr_sempred
         pred = self._predicates.get(ruleIndex, None)
         if pred is None:
             raise Exception("No predicate with index:" + str(ruleIndex))

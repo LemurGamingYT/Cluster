@@ -1,0 +1,12 @@
+// Start with a main function that returns an int
+func main() -> int {
+    // Variables are statically typed but have simple type inference
+    x = 20
+    y = "H"
+    z = 90.5
+    print(x)
+    print(y)
+    print(z)
+
+    return 0 // Return 0 to indicate success
+}

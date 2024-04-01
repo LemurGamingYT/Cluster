@@ -1,12 +1,9 @@
 {
-    "workbench.colorCustomizations": {
-        "minimap.background": "#00000000",
-        "scrollbar.shadow": "#00000000"
-    },
     "files.associations": {
-        "xstring": "cpp",
         "iostream": "cpp",
-        "string": "cpp",
-        "cmath": "cpp"
+        "xstring": "cpp",
+        "filesystem": "cpp",
+        "stdexcept": "cpp",
+        "iosfwd": "cpp"
     }
 }

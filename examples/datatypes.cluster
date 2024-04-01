@@ -1,0 +1,15 @@
+// Start with a main function that returns an int
+func main() -> int {
+    // Cluster has all of the basic data types
+    print(100) // ints (64 bit)
+    print(500.2) // floats (16 bit precision)
+    print("Hello world!") // strings
+    print(true) // booleans
+    print(nil) // nil
+
+    // Arrays are statically typed but have a dynamic length
+    print(int{100, 200, 300, 400, 500})
+    print(string{"A", "B", "C", "D", "E", "F", "G", "H", "I"})
+
+    return 0 // Return 0 to indicate success
+}

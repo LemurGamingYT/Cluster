@@ -1,0 +1,19 @@
+// Start with a main function that returns an int
+func main() -> int {
+    // Math constants
+    print(Math.pi)
+    print(Math.e)
+
+    // Math function examples
+    print(Math.sin(360))
+    print(Math.cos(-88))
+    print(Math.tan(102))
+    print(Math.sqrt(81))
+    print(Math.rad(90))
+    print(Math.deg(180))
+
+    print(Math.min(80, 800))
+    print(Math.max(1, 9))
+
+    return 0 // Return 0 to indicate success
+}

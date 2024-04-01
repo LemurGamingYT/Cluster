@@ -5,16 +5,10 @@ from shutil import which
 from pathlib import Path
 from os import makedirs
 
-from antlr4 import CommonTokenStream, FileStream
-
-from compiler.parser.ClusterParser import ClusterParser
-from compiler.parser.ClusterLexer import ClusterLexer
-from compiler.file_validator import validate_file
-from compiler.cpp_info import DEFAULT_HEADER
 from compiler import ClusterCompiler
 
 
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 
 
 JSON_DEFAULT = {
@@ -23,6 +17,9 @@ JSON_DEFAULT = {
     'main-file': '{}'
 }
 
+
+def make_into_exe(file: Path) -> Path:
+    return file.with_suffix('.exe') if system() == 'Windows' else file.with_suffix('')
 
 def directory_is_project(directory: Path) -> bool:
     return (directory / 'cluster.json').exists()
@@ -35,8 +32,8 @@ def project_configurations(directory: Path) -> dict:
 
 def make_project_configurations(directory: Path) -> None:
     makedirs(directory, exist_ok=True)
-    
-    json_content = JSON_DEFAULT
+
+    json_content = JSON_DEFAULT.copy()
     json_content['name'] = directory.name
     json_content['main-file'] = 'src/main.cluster'
 
@@ -46,58 +43,57 @@ def make_project_configurations(directory: Path) -> None:
 
     src = (directory / 'src')
     makedirs(src, exist_ok=True)
-    
+
     (src / 'main.cluster').write_text("""func main() -> int {
     print("Hello world")
     return 0
 }\n""")
 
 
-def build_project(path: Path) -> Path:
+def build_project(path: Path, should_build: bool = True) -> Path:
     configurations = project_configurations(path)
-    main_file = path / configurations['main-file']
-    print(main_file)
+    main_file: Path = path / configurations.get('main-file')
+    if main_file is None or not main_file.exists():
+        print(f'Main File ({main_file.as_posix()}) not found')
+    elif main_file.is_dir():
+        print(f'Main File ({main_file.as_posix()}) is a directory, expected a file')
+
+    for file in path.rglob('*.cluster'):
+        if file.absolute() == main_file.absolute():
+            continue
+
+        build_file(file, '.hpp', False)
+
+    main = build_file(main_file, should_build=should_build)
+    name = configurations.get('name')
+    if name is not None:
+        main.rename(path / make_into_exe(Path(name)))
+
+    return main
 
 def build_to_exe(cpp: Path) -> Path:
-    out = cpp.with_suffix('.exe') if system() == 'Windows' else cpp.with_suffix('')
-    
-    gpp = which('g++')
-    if gpp is not None:
-        run_sys(['g++', '-o', str(out), str(cpp), '-std=c++17'])
+    out = make_into_exe(cpp)
+
+    if which('g++') is not None:
+        run_sys(['g++', '-o', str(out), str(cpp)])
+    elif which('clang++') is not None:
+        run_sys(['clang++', '-o', str(out), str(cpp)])
     else:
-        clangpp = which('clang++')
-        if clangpp is not None:
-            run_sys(['clang++', '-o', str(out), str(cpp)])
-        else:
-            print('No valid C++ compiler found, expected clang++ or g++')
-        
-    clang_format = which('clang-format')
-    if clang_format is not None:
+        print('No valid C++ compiler found, expected clang++ or g++')
+
+    if which('clang-format') is not None:
         run_sys(['clang-format', '-i', str(cpp)])
     
     return out
 
 def build_file(file_path: Path, extension: str = '.cpp', should_build: bool = True) -> Path:
-    fstream = FileStream(file_path.as_posix(), 'utf-8')
+    if file_path.suffix == '.cluster':
+        compiler = ClusterCompiler(file_path)
+        cpp = compiler.compile(file_path, extension)
 
-    lexer = ClusterLexer(fstream)
-    tokens = CommonTokenStream(lexer)
+        if should_build:
+            return build_to_exe(cpp)
 
-    parser = ClusterParser(tokens)
-    tree = parser.parse()
-
-    compiler = ClusterCompiler(file_path.read_text())
-    code = compiler.visitParse(tree)
-
-    src = ''
-    for stmt in code:
-        src += stmt.code + '\n'
-
-    cpp = file_path.with_suffix(extension)
-    include_header = f'#include "{DEFAULT_HEADER.absolute()}"'
-    cpp.write_text(validate_file(f'{include_header}\n\n{src}\n', compiler.err))
-    
-    if should_build:
-        return build_to_exe(cpp)
-
-    return cpp
+        return cpp
+    elif file_path.suffix == '.cpp':
+        return build_to_exe(file_path)
